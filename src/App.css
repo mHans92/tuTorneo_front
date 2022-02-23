@@ -1,0 +1,63 @@
+*{
+color:rgb(255, 255, 255);
+/* font-family: 'Genos', sans-serif; */
+font-family: 'Staatliches', cursive;
+/* font-family: 'Archivo Black', sans-serif; */
+}
+
+
+.fondoHomePage{
+  background: url(./img/mapamundo.jpg);
+  position:relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.laterales{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.Centro{
+  width: 100%;
+  border-color: red;
+  border-style: solid;
+}
+
+.cajaPagPrincipal{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.cuerpo {
+  display: flex;
+  justify-content: space-between;
+  height: 1013px;
+}
+
+@media (max-width:640px){
+
+  .fondoHomePage{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  .cuerpo{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 93%;
+    height: auto;
+  }
+}

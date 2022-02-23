@@ -1,0 +1,255 @@
+.Menu{
+  color: aliceblue;
+  display: flex;
+  border-color: rgb(124, 123, 123);
+  border-style: ridge;
+  width: 15em;
+  height: 804px;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+  .btnMenu{
+    color: white;
+    width: 239px;
+    height: 55px;
+    background-color: rgb(116 114 113 / 34%);
+    border-color: rgb(255, 123, 0);
+    border-width: 3px;
+    cursor: pointer;
+    font-size: larger;
+  }
+
+  .btnMenu:hover{
+    background-color: rgb(75, 73, 72);
+    border-color: rgb(255, 123, 0);
+    color: rgb(26, 25, 25);
+  }
+  .imgIzq{
+    background-image: url(./Call6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15em;
+    height: 100%;
+    background-position-x: -112px;
+  }
+  @media(min-width:641px) and (max-width:4000px){
+  .btnMenuResponsiveMovil{
+    display:none;
+  }
+  .imgIzqResponsiveMovil{
+    display:none;
+  }
+  .btnPerfilResponsiveMovil{
+    display:none;
+  }
+  .btnNoticiasResponsiveMovil{
+    display:none;
+  }
+  .btnEquiposResponsiveMovil{
+    display:none;
+  }
+  .btnCalendarioResponsiveMovil{
+    display:none;
+  }
+}
+
+  @media(max-width:640px){
+    .Menu{
+      width: 107%;
+      height: 50px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: flex-start;
+      align-content: stretch;
+      position: relative;
+      border: none;
+      left: 12px; 
+    }
+    
+
+      .btnMenu{
+      display:none;
+      }
+      .imgIzq{
+        display:none;
+      }
+
+      .btnNoticiasResponsiveMovil{
+        background-image: url(./icononoticias.png);
+        background-color: #565555;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 92%;
+        height: 50px;
+        border-color: #ff7b00;
+        cursor: pointer;
+        padding-left: 53px;
+        padding-bottom: 24px;
+        padding-right: 33px;
+        position: relative;
+        background-position-x: 26px;
+    }
+    .btnNoticiasResponsiveMovil:hover{
+           background-color:#262626;
+    }
+    
+      .btnPerfilResponsiveMovil{
+        background-image: url(./perfilicono.png);
+        background-color: #565555;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 92%;
+        height: 50px;
+        border-color: #ff7b00;
+        cursor: pointer;
+        padding-left: 53px;
+        padding-bottom: 24px;
+        padding-right: 33px;
+        position: relative;
+        background-position-y: 5px;
+        background-size: 36px;
+        background-position-x: 23px;
+    
+      }
+      .btnPerfilResponsiveMovil:hover{
+        background-color:#262626;
+ }
+
+      .btnEquiposResponsiveMovil{
+        background-image: url(./equiposicono.png);
+        background-color: #565555;
+        background-color: #565555;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 92%;
+        height: 50px;
+        border-color: #ff7b00;
+        cursor: pointer;
+        padding-left: 53px;
+        padding-bottom: 24px;
+        padding-right: 33px;
+        position: relative;
+        background-position-y: 5px;
+        background-position-x: 21px;
+        background-size: 42px;
+      }
+      .btnEquiposResponsiveMovil:hover{
+      background-color:#262626;
+ }
+
+      .btnCalendarioResponsiveMovil{
+        background-image: url(./trofeoicono.png);
+        background-color: #565555;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 92%;
+        height: 50px;
+        border-color: #ff7b00;
+        cursor: pointer;
+        padding-left: 53px;
+        padding-bottom: 24px;
+        padding-right: 33px;
+        position: relative;
+        background-position-x: 27px;
+      }
+      .btnCalendarioResponsiveMovil:hover{
+      background-color:#262626;
+ }
+
+  }
+  /* @media (min-width:571px) and (max-width:640px){
+    .btnNoticiasResponsiveMovil{
+      background-image: url(./icononoticias.png);
+      background-color: #565555;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 102%;
+      height: 50px;
+      cursor: pointer;
+      border-color: #ff7b00;
+      padding-left: 55px;
+      padding-bottom: 24px;
+      padding-right: 93px;
+      left: -5px;
+      position: relative;
+      background-position-x: 48px;
+  }
+  }
+  @media(min-width:570px) and (max-width:625px){
+    .btnNoticiasResponsiveMovil{
+      background-image: url(./icononoticias.png);
+      background-color: #565555;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 102%;
+      height: 50px;
+      cursor: pointer;
+      padding-left: 55px;
+      padding-bottom: 24px;
+      padding-right: 70px;
+      left: -6px;
+      position: relative;
+      background-position-x: 52px;
+      border-color: #ff7b00;
+  }
+  }
+  @media(min-width:520px) and (max-width:570px){
+    .btnNoticiasResponsiveMovil{
+      background-image: url(./icononoticias.png);
+      background-color: #565555;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 102%;
+      height: 50px;
+      cursor: pointer;
+      padding-left: 55px;
+      padding-bottom: 24px;
+      padding-right: 60px;
+      left: -6px;
+      position: relative;
+      background-position-x: 52px;
+      border-color: #ff7b00;
+  }
+  }
+  @media(min-width:485px) and (max-width:520px){
+    .btnNoticiasResponsiveMovil{
+      background-image: url(./icononoticias.png);
+      background-color: #565555;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 102%;
+      height: 50px;
+      cursor: pointer;
+      padding-left: 55px;
+      padding-bottom: 24px;
+      padding-right: 55px;
+      left: -5px;
+      position: relative;
+      background-position-x: 39px;
+      border-color: #ff7b00;
+  }
+  }
+  @media(max-width:484px){
+    .btnNoticiasResponsiveMovil{
+      background-image: url(./icononoticias.png);
+      background-color: #565555;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 102%;
+      height: 50px;
+      cursor: pointer;
+      padding-left: 55px;
+      padding-bottom: 24px;
+      padding-right: 33px;
+      left: -5px;
+      position: relative;
+      background-position-x: 26px;
+      border-color: #ff7b00;
+  }
+  } */
+
+

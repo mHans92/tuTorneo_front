@@ -1,0 +1,346 @@
+.Equipos{
+  background-image: url(./call4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-style: inset;
+    border-color: #ff7b00;
+    border-width: 7px;
+    height: 343px;
+    width: 53em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 85px;
+  }
+  .creaUne{
+    display: flex;
+    flex-direction: row;
+  }
+  .btnEquipos{
+    color: white;
+    width: 18em;
+    height: 55px;
+    background-color: rgba(87, 87, 87, 0.918);
+    border-color: rgb(255, 123, 0);
+    cursor: pointer;
+    margin-right: 135px;
+    margin-left: 135px;
+  }
+  .btnEquipos:hover{
+    background-color: rgb(75, 73, 72);
+    border-color: rgb(255, 123, 0);
+  }
+
+  .CajaCrearEquipo{
+    background-color: #292929c7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 70px;
+    border-style: inset;
+    border-color: #ff7b00;
+    border-width: 7px;
+    height: 370px;
+    width: 850px;
+    padding: 20px;
+
+  }
+  .NombreEquipo{
+    width: 32em;
+    height: 3em;
+    color: gray;
+    border-color: rgb(255, 123, 0);
+    cursor: pointer;
+  }
+  .Color{
+    height: 3em;
+    width: 6em;
+    border-color: rgb(255, 123, 0);
+    cursor: pointer;
+  }
+  .btnCrearEquipo{
+  color: white;
+    width: 18em;
+    height: 55px;
+    background-color: rgba(87, 87, 87, 0.918);
+    border-color: rgb(255, 123, 0);
+    cursor: pointer;
+  }
+  .btnCrearEquipo:hover{
+    background-color: rgb(75, 73, 72);
+    border-color: rgb(255, 123, 0);
+
+  }
+  .cajaAñadirLogoEquipo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 17px;
+  }
+  .añadirLogo{
+    
+    width: 227px;
+    height: 99px;
+    margin-right: 104px;
+    margin-top: -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .imputLogoEquipo{
+
+  }
+
+  .logoEquipo{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+    border-style: ridge;
+    border-color: #ff7b00;   
+  }
+  .crearColum{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
+    border-right: #ff7b00;
+    border-style: ridge;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    padding-right: 16px;
+    margin-top: 10px;
+  }
+
+  .CajaUnirseEquipo{
+    background-color: #292929c7;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 70px;
+    border-style: inset;
+    border-color: #ff7b00;
+    border-width: 7px;
+    width: 700px;
+    height: 600px;
+    padding: 20px;
+    overflow-y: scroll;
+  }
+.inputBuscEquip{
+  color: #803939;
+  width: 50em;
+  height: 35px;
+  border-color: rgb(255, 123, 0);
+}
+.cajaNombreYBtnUnirseEquipo{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+}
+
+.equipoUnirseEquipo{
+  height: 25px;
+    border-style: ridge;
+    border-width: 1px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 3px;
+    width: 80%;
+    border-color: #ff7b00;
+}
+  .btnUnirseEquipo{
+    color: #212121;
+    border-color: rgb(255, 123, 0);
+    background-color: rgba(87, 87, 87, 0.918);
+    height: 35px;
+    width: 20%;
+  }
+  .btnUnirseEquipo:hover{
+    color: #ffffff;
+    background-color: rgb(75, 73, 72);
+  }
+
+  @media(min-width:641px) and (max-width:5000px){
+  .btnResponsiveCrearEquipo{
+    display:none;
+  }
+}
+  
+  @media (max-width:640px){
+   
+    .Equipos{
+      background-image: url(./call4.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        padding: 20px;
+        border-style: inset;
+        border-color: #ff7b00;
+        border-width: 7px;
+        height: 350px;
+        width: 290px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        margin-top: 0px;
+        margin-left: 25px;
+      }
+      .creaUne{
+        display: flex;
+        flex-direction: column;
+      }
+      .btnEquipos{
+        color: white;
+        width: 18em;
+        height: 55px;
+        background-color: rgba(87, 87, 87, 0.918);
+        border-color: rgb(255, 123, 0);
+        cursor: pointer;
+        margin-right: 135px;
+        margin-left: 135px;
+      }
+      .btnEquipos:hover{
+        background-color: rgb(75, 73, 72);
+        border-color: rgb(255, 123, 0);
+      }
+
+
+      .CajaCrearEquipo {
+        background-color: #292929c7;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        margin-top: 0px;
+        border-style: inset;
+        border-color: #ff7b00;
+        border-width: 7px;
+        height: 700px;
+        width: 290px;
+        padding: 20px;
+        margin-left: 25px;
+    }
+    .NombreEquipo {
+      width: 100%;
+      height: 40px;
+      color: gray;
+      border-color: rgb(255, 123, 0);
+      cursor: pointer;
+  }
+    .cajaAñadirLogoEquipo {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      align-content: center;
+      margin-right: -58px;
+  }
+  .añadirLogo {
+    width: 227px;
+    height: 99px;
+    margin-right: 104px;
+    margin-top: -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imputLogoEquipo {
+  font-size: 11px;
+}
+.logoEquipo {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 250px;
+  height: 250px;
+  border-style: ridge;
+  border-color: #ff7b00;
+  margin-left: 8px;
+}
+      .crearColum {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: baseline;
+        align-content: flex-start;
+        border-right: #ff7b00;
+        border-left: none;
+        border-top: none;
+        border-bottom: none;
+        padding-right: 16px;
+        margin-top: 10px;
+        width: 90%;
+    }
+      .btnCrearEquipo{
+        display: none;
+      }
+      .btnResponsiveCrearEquipo {
+        color: white;
+        width: 18em;
+        height: 55px;
+        background-color: rgba(87, 87, 87, 0.918);
+        border-color: rgb(255, 123, 0);
+        cursor: pointer;
+        margin-top: 10px;
+    }
+      .btnResponsiveCrearEquipo:hover{
+        background-color: rgb(75, 73, 72);
+        border-color: rgb(255, 123, 0);
+    
+      }
+
+
+      .CajaUnirseEquipo {
+        background-color: #292929c7;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        margin-top: 0px;
+        border-style: ridge;
+        border-color: #ff7b00;
+        border-width: 7px;
+        width: 290px;
+        height: 600px;
+        padding: 20px;
+        overflow-y: scroll;
+        margin-left: 25px;
+    }
+    .equipoUnirseEquipo {
+      height: 25px;
+      border-style: ridge;
+      border-width: 1px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      padding: 3px;
+      width: 67%;
+      border-color: #ff7b00;
+  }
+  .btnUnirseEquipo {
+    color: #212121;
+    border-color: rgb(255, 123, 0);
+    background-color: rgba(87, 87, 87, 0.918);
+    height: 35px;
+    width: 30%;
+}
+  }

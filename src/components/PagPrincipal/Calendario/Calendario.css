@@ -1,0 +1,115 @@
+.calendario{
+  background-image: url(./CODW1.jpg);
+  width: 1630px;
+  height: 1014px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  }
+  .btnGenerarTorneo{
+    color: white;
+    background-color: rgb(116 114 113 / 34%);
+    border-color: rgb(255, 123, 0);
+    cursor: pointer;
+    height: 38px;
+    margin-top: 5px;
+  }
+  .selectGnanador{
+  color: #212121;
+    border-color: rgb(255, 123, 0);
+    background-color: rgba(87, 87, 87, 0.918);
+}
+.btnGnanador{
+  color: white;
+  background-color: rgb(116 114 113 / 34%);
+    border-color: rgb(255, 123, 0);
+    cursor: pointer;
+}
+.btnGenerarTorneo:hover{
+  background-color: rgb(75, 73, 72);
+  border-color: rgb(255, 123, 0);
+  
+}
+.cajaCalendario{
+  background-color: #292929de;
+  height: 695px;
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-top: 0px;
+  border-style: ridge;
+  border-color: #955240;
+  border-width: 7px;
+  padding: 20px;
+  overflow-y: scroll;
+  
+}
+.nomTorneo{
+  width: 50em;
+  height: 30px;
+  color: gray;
+  border-color: rgb(255, 123, 0);
+}
+.tablaEquipos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-end;
+  margin-bottom: 3px;
+}
+.equip{
+  border-color: rgb(116 115 115);
+  border-style: ridge;
+  padding: 5px;
+}
+.vs{
+  border-color: rgb(116 115 115);
+  border-style: ridge;
+  padding: 5px;
+}
+
+@media(max-width:640px){
+  .cajaCalendario {
+    background-color: #292929eb;
+    height: 961px;
+    width: 306px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 0px;
+    border-style: ridge;
+    border-color: #955240;
+    border-width: 7px;
+    padding: 20px;
+    overflow-y: scroll;
+    margin-left: 23px;
+}
+.calendario {
+  background-image: url(CODW1.jpg);
+  width: 100%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+}
